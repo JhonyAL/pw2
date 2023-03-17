@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #202020;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.navbar {
+    background: #050505;
+    height: 60px;
+    width: 100%;
+    padding: 3px 15px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo img {
+    width: 45px;
+    border-radius: 50%;
+}
+
+.navbar-left a,
+.navbar-left p {
+    color: #71478d;
+    font-size: 1.15rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+
+}
+
+.dropdown .dropdown-items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    gap: 10px;
+
+    background: #71478d;
+
+    margin-top: 20px;
+    padding: 0.5rem;
+    transition: 1000 ease-in;
+}
+
+.dropdown-items a {
+    color: #ddd;
+    margin-bottom: 1px solid #290d3b;
+}
+
+.dropdown:hover > .dropdown-items {
+    display: flex;
+    transition: 1000 ease-in;
+}
+
+
+.CAC form {
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.CAC form .inputs {
+    margin: 10px;
+    width: 25%;
+}
+
+.CAC form button {
+    border: none;
+    margin: 10px;
+    background-color: #ff7f50;
+    padding: 8px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.CAC form button:hover {
+    background-color: rgb(248, 103, 50);
+}
+
+.CAC {
+    background-color: #f8f9facb;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+
+
+/* p {
+    color: rgb(255, 145, 0);
+    font-size: 15px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 100%;
+}
+
+.navbar-left .items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+    height: 100%;
+}
+
+.navbar-left .items .logo img {
+    width: 125px;
+}
+
+.navbar-left .items .item-div {
+    width: 100px;
+    height: 100%;
+    padding: 0px 5px;
+    font-size: 15px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-left .items .item-div p {
+    color: #eee;
+}
+
+.navbar-left .items .item-div .item:hover {
+    color: #f8f8f8;
+}
+
+.navbar-right {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 30px;
+    cursor: pointer;
+    gap: 15px;
+    font-size: 40px;
+}
+
+.perfil-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+} */
