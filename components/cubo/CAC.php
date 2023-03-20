@@ -23,16 +23,21 @@
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
 <body>
 
     <div class="container CAC">
-        <h1>Calcular Área do Cubo</h1>
+        <h1>Calcular Área de um Cubo</h1>
         <form method="get">
             <input type="number" name="val1" class="inputs" placeholder="Altura (cm): ">
             <br>
             <input type="number" name="val2" class="inputs" placeholder="Largura (cm): ">
             <br>
-            <input type="text" disabled  id="span" value='<?php echo "Resultado: ", isset($area)? $area.' cm³':'0 cm³'; ?>'>
+            <span type="text" disabled  id="span"><?php echo "Resultado: ", isset($area)? $area.' cm²':'0 cm²'; ?></span>
             <br>
             <button name="btn_calc">Calcular</button>
         </form>
